@@ -28,21 +28,21 @@ class Screen(object):
 
                 nowTime = time.strftime("%Y_%m_%d_%H_%M_%S")
 
-                filepath = os.path.join(os.path.dirname(os.getcwd()),'screenshots')
+                #filepath = os.path.join(os.path.dirname(os.getcwd()),'screenshots')
 
-                self.driver.get_screenshot_as_file(filepath +'/%s.jpg' % nowTime)
+                self.driver.get_screenshot_as_file('%s.jpg' % nowTime)
 
                 raise
 
         return inner
 
 
-#import unittest
 
 
-# class Test(unittest.TestCase):
 #
-#     driver = webdriver.Firefox()
+# class Test(object):
+#
+#     driver = webdriver.Firefox(executable_path="D:\\app\\hysc\\src\\tools\\geckodriver.exe")
 #
 #     def setUp(self):
 #         #driver = webdriver.Firefox()
@@ -54,4 +54,8 @@ class Screen(object):
 #
 #         self.driver.find_element_by_id("11kw").send_keys("python")
 #         self.driver.find_element_by_id("su").click()
+
+
+
+
 

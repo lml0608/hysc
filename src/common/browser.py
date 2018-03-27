@@ -19,7 +19,7 @@ def browser(browser='firefox'):
 
         if browser == "firefox":
 
-            driver = webdriver.Firefox()
+            driver = webdriver.Firefox(executable_path="D:\\app\\hysc\\src\\tools\\geckodriver.exe")
             return driver
 
         elif browser == "chrome":
@@ -29,7 +29,10 @@ def browser(browser='firefox'):
             # driver = webdriver.Chrome(
             #     executable_path='C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
             driver = webdriver.Chrome(
-                executable_path=toolspath)
+                executable_path='D:\\app\\pagedemo\\tools\\chromedriver.exe')
+
+
+
 
 
 

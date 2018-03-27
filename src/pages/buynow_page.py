@@ -6,14 +6,11 @@ __author__:liubin
 
 
 from selenium.webdriver.common.by import By
-from .base import BasePage
+from .basepage import BasePage
 import time
-from common.logger import Log
-from common.getlogger import get_logger
 
 class BuynowPage(BasePage):
 
-    log = get_logger()
 
 
     #秒杀按钮
