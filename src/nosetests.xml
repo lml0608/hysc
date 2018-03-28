@@ -1,2 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="0" failures="0" skip="0"><testcase classname="src.testcase.testxiasnhi.testxianshi" name="test003" time="86.552"><system-out><![CDATA[open http://portaltest.wgmf.com/index.html title error
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="0" failures="0" skip="0"><testcase classname="src.testcase.testmycase.testMyCase" name="testcase2" time="0.103"><system-out><![CDATA[setup function
+com.example.android.apis
+teardown function
 ]]></system-out></testcase></testsuite>

@@ -8,9 +8,12 @@ import os
 from selenium import webdriver
 
 
-toolspath = os.path.join(os.path.dirname(os.getcwd()),'tools','chromedriver.exe')
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-print(toolspath)
+ChromePath = os.path.join(BASE_DIR,'tools/chromedriver.exe')
+
+FireFoxPath = os.path.join(BASE_DIR,'tools/geckodriver.exe')
+
 
 def browser(browser='firefox'):
     ''''打开浏览器函数，"firefox"、"chrome"、"ie"、"phantomjs"'''
@@ -19,25 +22,14 @@ def browser(browser='firefox'):
 
         if browser == "firefox":
 
-            driver = webdriver.Firefox(executable_path="D:\\app\\hysc\\src\\tools\\geckodriver.exe")
+            driver = webdriver.Firefox(executable_path=FireFoxPath)
             return driver
 
         elif browser == "chrome":
-            # driver = webdriver.Chrome(
-            #     executable_path='/Users/liubin/PycharmProjects/pagedemo/tools/chromedriver')
 
-            # driver = webdriver.Chrome(
-            #     executable_path='C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
-            driver = webdriver.Chrome(
-                executable_path='D:\\app\\pagedemo\\tools\\chromedriver.exe')
-
-
-
-
-
-
-
+            driver = webdriver.Chrome(executable_path=ChromePath)
             return driver
+
         elif browser == "ie":
             driver = webdriver.Ie()
             return driver
@@ -53,3 +45,6 @@ def browser(browser='firefox'):
     except Exception as msg:
 
         print("%s" % msg)
+
+
+
