@@ -25,7 +25,7 @@ class LoginPage(BasePage):
 
     password_input = (By.ID, "password")
 
-    sub_button = (By.CLASS_NAME, "sub")
+    sub_button = (By.CLASS_NAME, "sub1")
 
     #进入商城管理
     manager_button = (By.XPATH, "html/body/div[2]/div/ul/li[4]/a")

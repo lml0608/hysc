@@ -1346,3 +1346,97 @@ Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openv
 [Child 18052] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
 1522314280754	geckodriver::marionette	ERROR	Failed to stop browser process
+1522314597361	geckodriver	INFO	geckodriver 0.20.0
+1522314597381	geckodriver	INFO	Listening on 127.0.0.1:59514
+1522314600407	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zengzhi\\AppData\\Local\\Temp\\rust_mozprofile.wlJMqFtRehY8"
+1522314601459	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1522314602577	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5596] WARNING: pipe error: 995: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 464
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10740] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10740] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1522314607366	Marionette	INFO	Listening on port 59526
+1522314608114	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522314608183	Marionette	DEBUG	Register listener.js for window 4294967297
+1522314627674	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522314627846	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522314627846	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522314629721	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://portaltest.wgmf.com/index.html"
+1522314629874	Marionette	DEBUG	Received DOM event "pageshow" for "http://portaltest.wgmf.com/index.html"
+1522314640650	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522314641157	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://portaltest.wgmf.com/wgmfjz/index.html, line 51: TypeError: iframe[0].contentWindow.document.documentElement is null
+1522314645294	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522314645303	Marionette	INFO	New connections will no longer be accepted
+[Parent 5596] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19664] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12872] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12872] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522314648073	geckodriver::marionette	ERROR	Failed to stop browser process
+ificate errors will be ignored for this session
+1522314618304	Marionette	DEBUG	Register listener.js for window 4294967297
+1522314618896	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522314620365	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522314620365	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1522314621173	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1522314621253	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1522314622072	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522314624160	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4548] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4548] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1522314624373	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 14412] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+1522314626210	geckodriver::marionette	ERROR	Failed to stop browser process
+1522314695920	geckodriver	INFO	geckodriver 0.20.0
+1522314695946	geckodriver	INFO	Listening on 127.0.0.1:59816
+1522314698959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zengzhi\\AppData\\Local\\Temp\\rust_mozprofile.mDg3KXAuX2Jn"
+1522314700980	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1522314702144	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20332] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1522314707071	Marionette	INFO	Listening on port 59834
+1522314707159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522314707302	Marionette	DEBUG	Register listener.js for window 4294967297
+1522314728372	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522314728439	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522314728440	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1522314730176	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://portaltest.wgmf.com/index.html"
+1522314730353	Marionette	DEBUG	Received DOM event "pageshow" for "http://portaltest.wgmf.com/index.html"
+1522314740992	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522314751479	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 20424] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5436] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15976] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522314753382	geckodriver::marionette	ERROR	Failed to stop browser process
+mium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19768] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1522314718383	Marionette	INFO	Listening on port 59904
+1522314718860	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522314718924	Marionette	DEBUG	Register listener.js for window 4294967297
+1522314718994	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1522314720352	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1522314720353	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1522314721194	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1522314721523	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1522314722365	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1522314724380	Marionette	INFO	New connections will no longer be accepted
+[Child 19816] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1522314724787	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\zengzhi\AppData\Local\openvr\openvrpaths.vrpath
+1522314726877	geckodriver::marionette	ERROR	Failed to stop browser process

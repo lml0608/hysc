@@ -12,6 +12,7 @@ from src.common.browser import browser
 class testlogin(unittest.TestCase):
 
     driver = browser()
+    print("OK")
 
     def __init__(self, *args, **kwargs):
         super(testlogin, self).__init__(*args, **kwargs)
