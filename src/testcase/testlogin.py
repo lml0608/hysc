@@ -3,15 +3,15 @@
 # __author__:liubin
 #
 # '''
-#
-# from selenium import webdriver
+# import unittest
 # from src.pages import login_page
 # import logging
 # from src.common.screen import Screen
+# from src.common.browser import browser
 #
-# class testlogin(object):
+# class testlogin(unittest.TestCase):
 #
-#     driver = webdriver.Firefox(executable_path="D:\\app\\hysc\\src\\tools\\geckodriver.exe")
+#     driver = browser()
 #
 #     def __init__(self):
 #
@@ -19,7 +19,7 @@
 #
 #
 #     def setUp(self):
-#         self.logger.info("---测试用例开始----")
+#         #self.logger.info("---测试用例开始----")
 #
 #         #self.driver =  webdriver.Firefox(executable_path = "D:\\app\\hysc\\src\\tools\\geckodriver.exe")
 #
@@ -32,7 +32,7 @@
 #
 #
 #
-#     #@Screen(driver)
+#     @Screen(driver)
 #     def testlogin01(self):
 #
 #         login = login_page.LoginPage(self.driver)
@@ -48,6 +48,10 @@
 #
 #         self.driver.quit()
 #
+#
+# if __name__ == "__main__":
+#
+#     unittest.main()
 #
 #
 #
