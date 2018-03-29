@@ -31,7 +31,7 @@ def all_case():
     return discover
 
 
-#all_case()
+all_case()
 if __name__ == '__main__':
 
 

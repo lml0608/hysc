@@ -1,3 +1,22 @@
-2018-03-28 09:10:48 testmycase.py[line:21] DEBUG   : setup---15
-2018-03-28 09:10:48 testmycase.py[line:41] WARNING : test2----33
-2018-03-28 09:10:48 testmycase.py[line:26] DEBUG   : teardown---20
+2018-03-29 17:00:10 basepage.py[line:80] INFO    : click element:loginShow
+2018-03-29 17:00:10 login_page.py[line:60] INFO    : -----------点击登陆商城----------------
+2018-03-29 17:00:10 login_page.py[line:66] INFO    : -----------输入员工工号----------------
+2018-03-29 17:00:10 login_page.py[line:71] INFO    : -----------输入登陆密码----------------
+2018-03-29 17:00:10 basepage.py[line:80] INFO    : click element:sub
+2018-03-29 17:00:11 login_page.py[line:77] INFO    : -----------点击登陆按钮----------------
+2018-03-29 17:00:13 basepage.py[line:80] INFO    : click element:html/body/div[2]/div/ul/li[4]/a
+2018-03-29 17:00:14 testlogin.py[line:48] INFO    : -----用例测试结束--------
+2018-03-29 17:04:36 test002.py[line:38] INFO    : ---测试用例开始----
+2018-03-29 17:04:36 test002.py[line:42] INFO    : 输入内容：selenium
+2018-03-29 17:04:37 test002.py[line:46] INFO    : 点击按钮：id=su
+2018-03-29 17:04:39 test002.py[line:52] INFO    : 获取title内容：selemiu_百度搜索
+2018-03-29 17:04:39 test002.py[line:59] INFO    : -----用例测试结束--------
+2018-03-29 17:04:43 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-03-29 17:04:53 basepage.py[line:80] INFO    : click element:loginShow
+2018-03-29 17:04:54 login_page.py[line:60] INFO    : -----------点击登陆商城----------------
+2018-03-29 17:04:54 login_page.py[line:66] INFO    : -----------输入员工工号----------------
+2018-03-29 17:04:54 login_page.py[line:71] INFO    : -----------输入登陆密码----------------
+2018-03-29 17:04:54 basepage.py[line:80] INFO    : click element:sub
+2018-03-29 17:04:54 login_page.py[line:77] INFO    : -----------点击登陆按钮----------------
+2018-03-29 17:04:56 basepage.py[line:80] INFO    : click element:html/body/div[2]/div/ul/li[4]/a
+2018-03-29 17:04:57 testlogin.py[line:48] INFO    : -----用例测试结束--------
