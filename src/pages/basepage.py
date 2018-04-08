@@ -3,17 +3,14 @@
 __author__:liubin
 
 '''
-
+import os
+import time
 import logging
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.common.exceptions import *
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-import os,time
-
-
-
 
 class BasePage(object):
     '''封装'''
