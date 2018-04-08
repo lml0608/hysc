@@ -18,3 +18,8 @@
 2018-04-08 16:52:48 basepage.py[line:81] INFO    : click element:loginShow
 2018-04-08 16:52:48 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
 2018-04-08 16:52:59 testlogin.py[line:41] INFO    : -----用例测试结束--------
+2018-04-08 16:58:29 testlogin.py[line:21] INFO    : ---测试用例开始----
+2018-04-08 16:58:41 basepage.py[line:39] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-08 16:58:53 basepage.py[line:81] INFO    : click element:loginShow
+2018-04-08 16:58:53 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
+2018-04-08 16:59:04 testlogin.py[line:41] INFO    : -----用例测试结束--------

@@ -10,12 +10,12 @@ import time
 from HTMLTestRunner import HTMLTestRunner
 
 #用例路径
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+case_path = os.path.join(BASE_DIR,'testcase')
 
-case_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),'testcase')
-print(case_path)
 #报告存放路径
-report_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),"test_report")
-print(report_path)
+report_path = os.path.join(BASE_DIR,"test_report")
+
 
 
 now = time.strftime("%Y_%m_%d %H_%M_%S")
