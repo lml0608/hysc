@@ -35,7 +35,7 @@ class testlogin(unittest.TestCase):
             login.login()
         except Exception as e:
             print(e)
-            self.driver.save_screenshot('liubin.png')
+            login.get_scrennshot()
 
     def tearDown(self):
         self.logger.info("-----用例测试结束--------")

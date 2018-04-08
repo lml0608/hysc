@@ -37,7 +37,7 @@ class LoginPage(BasePage):
 
     locator_dictionary = {
         "login_button": (By.ID, 'loginShow'),
-        "staff": (By.ID, 'staff_id'),
+        "staff": (By.ID, 'staff_id1'),
         "passwd": (By.ID, 'password'),
         "sub_button": (By.CLASS_NAME, 'sub'),
         "manager_button":(By.XPATH,"//div[@class='my_nav']/div/ul/li[4]/a")

@@ -1,6 +1,0 @@
-2018-03-29 16:59:51 test002.py[line:38] INFO    : ---测试用例开始----
-2018-03-29 16:59:51 test002.py[line:42] INFO    : 输入内容：selenium
-2018-03-29 16:59:51 test002.py[line:46] INFO    : 点击按钮：id=su
-2018-03-29 16:59:53 test002.py[line:52] INFO    : 获取title内容：selemiu_百度搜索
-2018-03-29 16:59:53 test002.py[line:59] INFO    : -----用例测试结束--------
-2018-03-29 17:00:00 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html

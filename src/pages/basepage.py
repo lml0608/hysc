@@ -10,6 +10,7 @@ from selenium.webdriver.support.select import Select
 from selenium.common.exceptions import *
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+import os,time
 
 
 
@@ -288,6 +289,17 @@ class BasePage(object):
         element = self.find_element(locator)
 
         Select(element).select_by_value(text)
+
+    def get_scrennshot(self):
+
+        path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),'screenshots')
+        nowTime = time.strftime("%Y_%m_%d_%H_%M_%S")
+        screen_path = os.path.join(path, nowTime + '.png')
+        print(screen_path)
+        self.driver.save_screenshot(screen_path)
+
+
+
 
 
 

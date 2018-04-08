@@ -4,7 +4,7 @@ __author__:liubin
 
 '''
 
-from selenium import webdriver
+
 import os
 
 class Screen(object):
