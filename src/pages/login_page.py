@@ -4,9 +4,6 @@ __author__:liubin
 
 '''
 
-
-
-
 from selenium.webdriver.common.by import By
 from .basepage import BasePage
 import time
@@ -18,17 +15,17 @@ class LoginPage(BasePage):
 
 
 
-    #登陆元素
-    login_button = (By.ID, "loginShow")
-
-    staff_input = (By.ID, "staff_id")
-
-    password_input = (By.ID, "password")
-
-    sub_button = (By.CLASS_NAME, "sub1")
-
-    #进入商城管理
-    manager_button = (By.XPATH, "html/body/div[2]/div/ul/li[4]/a")
+    # #登陆元素
+    # login_button = (By.ID, "loginShow")
+    #
+    # staff_input = (By.ID, "staff_id1")
+    #
+    # password_input = (By.ID, "password")
+    #
+    # sub_button = (By.CLASS_NAME, "sub1")
+    #
+    # #进入商城管理
+    # manager_button = (By.XPATH, "//div[@class='my_nav']/div/ul/li[4]/a")
 
 
 
@@ -37,6 +34,14 @@ class LoginPage(BasePage):
         BasePage.__init__(self, driver)
 
         self.logger = logging.getLogger(__name__)
+
+    locator_dictionary = {
+        "login_button": (By.ID, 'loginShow'),
+        "staff": (By.ID, 'staff_id'),
+        "passwd": (By.ID, 'password'),
+        "sub_button": (By.CLASS_NAME, 'sub'),
+        "manager_button":(By.XPATH,"//div[@class='my_nav']/div/ul/li[4]/a")
+    }
 
 
     #打开浏览器
@@ -56,28 +61,31 @@ class LoginPage(BasePage):
         # 弹出登陆框
 
 
-        self.click(self.login_button)
+        self.click(self.locator_dictionary['login_button'])
         self.logger.info("-----------点击登陆商城----------------")
 
 
 
         # 输入工号
-        self.send_keys(self.staff_input, staff_id)
+        self.send_keys(self.locator_dictionary['staff'], staff_id)
         self.logger.info("-----------输入员工工号----------------")
 
 
         # 输入密码
-        self.send_keys(self.password_input, password)
+        self.send_keys(self.locator_dictionary['passwd'], password)
         self.logger.info("-----------输入登陆密码----------------")
 
 
         # 点击登陆按钮
 
-        self.click(self.sub_button)
+        self.click(self.locator_dictionary['sub_button'])
         self.logger.info("-----------点击登陆按钮----------------")
 
         #打开运营管理中心
-        self.click(self.manager_button)
+        self.click(self.locator_dictionary['manager_button'])
         #self.log.info("------------切换到运营商城---------------")
+
+
+        time.sleep(10)
 
 

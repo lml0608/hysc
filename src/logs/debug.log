@@ -1,47 +1,51 @@
-2018-03-29 17:00:10 basepage.py[line:80] INFO    : click element:loginShow
-2018-03-29 17:00:10 login_page.py[line:60] INFO    : -----------点击登陆商城----------------
-2018-03-29 17:00:10 login_page.py[line:66] INFO    : -----------输入员工工号----------------
-2018-03-29 17:00:10 login_page.py[line:71] INFO    : -----------输入登陆密码----------------
-2018-03-29 17:00:10 basepage.py[line:80] INFO    : click element:sub
-2018-03-29 17:00:11 login_page.py[line:77] INFO    : -----------点击登陆按钮----------------
-2018-03-29 17:00:13 basepage.py[line:80] INFO    : click element:html/body/div[2]/div/ul/li[4]/a
-2018-03-29 17:00:14 testlogin.py[line:48] INFO    : -----用例测试结束--------
-2018-03-29 17:04:36 test002.py[line:38] INFO    : ---测试用例开始----
-2018-03-29 17:04:36 test002.py[line:42] INFO    : 输入内容：selenium
-2018-03-29 17:04:37 test002.py[line:46] INFO    : 点击按钮：id=su
-2018-03-29 17:04:39 test002.py[line:52] INFO    : 获取title内容：selemiu_百度搜索
-2018-03-29 17:04:39 test002.py[line:59] INFO    : -----用例测试结束--------
-2018-03-29 17:04:43 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
-2018-03-29 17:04:53 basepage.py[line:80] INFO    : click element:loginShow
-2018-03-29 17:04:54 login_page.py[line:60] INFO    : -----------点击登陆商城----------------
-2018-03-29 17:04:54 login_page.py[line:66] INFO    : -----------输入员工工号----------------
-2018-03-29 17:04:54 login_page.py[line:71] INFO    : -----------输入登陆密码----------------
-2018-03-29 17:04:54 basepage.py[line:80] INFO    : click element:sub
-2018-03-29 17:04:54 login_page.py[line:77] INFO    : -----------点击登陆按钮----------------
-2018-03-29 17:04:56 basepage.py[line:80] INFO    : click element:html/body/div[2]/div/ul/li[4]/a
-2018-03-29 17:04:57 testlogin.py[line:48] INFO    : -----用例测试结束--------
-2018-03-29 17:10:21 test002.py[line:38] INFO    : ---测试用例开始----
-2018-03-29 17:10:21 test002.py[line:42] INFO    : 输入内容：selenium
-2018-03-29 17:10:22 test002.py[line:46] INFO    : 点击按钮：id=su
-2018-03-29 17:10:24 test002.py[line:52] INFO    : 获取title内容：selemiu_百度搜索
-2018-03-29 17:10:24 test002.py[line:59] INFO    : -----用例测试结束--------
-2018-03-29 17:10:29 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
-2018-03-29 17:10:40 basepage.py[line:80] INFO    : click element:loginShow
-2018-03-29 17:10:40 login_page.py[line:60] INFO    : -----------点击登陆商城----------------
-2018-03-29 17:10:40 login_page.py[line:66] INFO    : -----------输入员工工号----------------
-2018-03-29 17:10:40 login_page.py[line:71] INFO    : -----------输入登陆密码----------------
-2018-03-29 17:10:40 basepage.py[line:80] INFO    : click element:sub
-2018-03-29 17:10:41 login_page.py[line:77] INFO    : -----------点击登陆按钮----------------
-2018-03-29 17:10:44 basepage.py[line:80] INFO    : click element:html/body/div[2]/div/ul/li[4]/a
-2018-03-29 17:10:45 testlogin.py[line:50] INFO    : -----用例测试结束--------
-2018-03-29 17:12:01 test002.py[line:38] INFO    : ---测试用例开始----
-2018-03-29 17:12:02 test002.py[line:42] INFO    : 输入内容：selenium
-2018-03-29 17:12:02 test002.py[line:46] INFO    : 点击按钮：id=su
-2018-03-29 17:12:04 test002.py[line:52] INFO    : 获取title内容：selemiu_百度搜索
-2018-03-29 17:12:04 test002.py[line:59] INFO    : -----用例测试结束--------
-2018-03-29 17:12:10 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
-2018-03-29 17:12:20 basepage.py[line:80] INFO    : click element:loginShow
-2018-03-29 17:12:20 login_page.py[line:60] INFO    : -----------点击登陆商城----------------
-2018-03-29 17:12:21 login_page.py[line:66] INFO    : -----------输入员工工号----------------
-2018-03-29 17:12:21 login_page.py[line:71] INFO    : -----------输入登陆密码----------------
-2018-03-29 17:12:31 testlogin.py[line:50] INFO    : -----用例测试结束--------
+2018-04-08 15:58:22 test002.py[line:38] INFO    : ---测试用例开始----
+2018-04-08 15:58:23 test002.py[line:42] INFO    : 输入内容：selenium
+2018-04-08 15:58:24 test002.py[line:46] INFO    : 点击按钮：id=su
+2018-04-08 15:58:26 test002.py[line:52] INFO    : 获取title内容：selemiu_百度搜索
+2018-04-08 15:58:26 test002.py[line:59] INFO    : -----用例测试结束--------
+2018-04-08 15:58:59 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-08 15:59:09 testlogin.py[line:59] INFO    : -----用例测试结束--------
+2018-04-08 16:00:15 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-08 16:00:25 testlogin.py[line:59] INFO    : -----用例测试结束--------
+2018-04-08 16:01:35 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-08 16:01:46 testlogin.py[line:60] INFO    : -----用例测试结束--------
+2018-04-08 16:03:42 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-08 16:03:53 basepage.py[line:80] INFO    : click element:loginShow
+2018-04-08 16:03:53 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
+2018-04-08 16:03:54 login_page.py[line:71] INFO    : -----------输入员工工号----------------
+2018-04-08 16:03:56 login_page.py[line:76] INFO    : -----------输入登陆密码----------------
+2018-04-08 16:04:07 testlogin.py[line:60] INFO    : -----用例测试结束--------
+2018-04-08 16:04:37 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-08 16:04:48 basepage.py[line:80] INFO    : click element:loginShow
+2018-04-08 16:04:48 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
+2018-04-08 16:04:48 login_page.py[line:71] INFO    : -----------输入员工工号----------------
+2018-04-08 16:04:49 login_page.py[line:76] INFO    : -----------输入登陆密码----------------
+2018-04-08 16:04:59 testlogin.py[line:60] INFO    : -----用例测试结束--------
+2018-04-08 16:06:27 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-08 16:06:38 basepage.py[line:80] INFO    : click element:loginShow
+2018-04-08 16:06:38 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
+2018-04-08 16:06:38 login_page.py[line:71] INFO    : -----------输入员工工号----------------
+2018-04-08 16:06:38 login_page.py[line:76] INFO    : -----------输入登陆密码----------------
+2018-04-08 16:06:38 basepage.py[line:80] INFO    : click element:sub
+2018-04-08 16:06:39 login_page.py[line:82] INFO    : -----------点击登陆按钮----------------
+2018-04-08 16:06:42 basepage.py[line:80] INFO    : click element://div[@class='my_nav']/div/ul/li[4]/a
+2018-04-08 16:06:43 testlogin.py[line:60] INFO    : -----用例测试结束--------
+2018-04-08 16:07:45 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-08 16:07:55 basepage.py[line:80] INFO    : click element:loginShow
+2018-04-08 16:07:56 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
+2018-04-08 16:07:56 login_page.py[line:71] INFO    : -----------输入员工工号----------------
+2018-04-08 16:07:57 login_page.py[line:76] INFO    : -----------输入登陆密码----------------
+2018-04-08 16:07:57 basepage.py[line:80] INFO    : click element:sub
+2018-04-08 16:07:58 login_page.py[line:82] INFO    : -----------点击登陆按钮----------------
+2018-04-08 16:07:59 basepage.py[line:80] INFO    : click element://div[@class='my_nav']/div/ul/li[4]/a
+2018-04-08 16:08:10 testlogin.py[line:62] INFO    : -----用例测试结束--------
+2018-04-08 16:21:12 testlogin.py[line:21] INFO    : ---测试用例开始----
+2018-04-08 16:21:23 basepage.py[line:38] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-08 16:21:35 basepage.py[line:80] INFO    : click element:loginShow
+2018-04-08 16:21:35 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
+2018-04-08 16:21:35 login_page.py[line:71] INFO    : -----------输入员工工号----------------
+2018-04-08 16:21:35 login_page.py[line:76] INFO    : -----------输入登陆密码----------------
+2018-04-08 16:21:36 basepage.py[line:80] INFO    : click element:sub
+2018-04-08 16:21:36 login_page.py[line:82] INFO    : -----------点击登陆按钮----------------
+2018-04-08 16:21:38 basepage.py[line:80] INFO    : click element://div[@class='my_nav']/div/ul/li[4]/a
+2018-04-08 16:21:48 testlogin.py[line:41] INFO    : -----用例测试结束--------

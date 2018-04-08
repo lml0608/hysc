@@ -7,11 +7,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 filepath = os.path.join(BASE_DIR, 'conf','evn/logging.conf')
-#
-#print(filepath)
 
-#D:\app\baseProject\conf\evn\logging.conf
-#D:\app\baseProject\src\conf\evn\logging.conf
 
 logging.config.fileConfig(filepath)
 

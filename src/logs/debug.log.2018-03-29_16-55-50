@@ -1,5 +1,0 @@
-2018-03-29 16:55:44 test002.py[line:38] INFO    : ---测试用例开始----
-2018-03-29 16:55:44 test002.py[line:42] INFO    : 输入内容：selenium
-2018-03-29 16:55:45 test002.py[line:46] INFO    : 点击按钮：id=su
-2018-03-29 16:55:47 test002.py[line:52] INFO    : 获取title内容：selemiu_百度搜索
-2018-03-29 16:55:47 test002.py[line:59] INFO    : -----用例测试结束--------
