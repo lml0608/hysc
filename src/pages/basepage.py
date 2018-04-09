@@ -6,6 +6,8 @@ __author__:liubin
 import os
 import time
 import logging
+import traceback
+
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.common.exceptions import *
@@ -56,6 +58,7 @@ class BasePage(object):
         element = WebDriverWait(self.driver,timeout,1).until(EC.presence_of_element_located(locator))
 
         return element
+
 
 
     def find_elements(self,locator,timeout=10):
@@ -294,6 +297,33 @@ class BasePage(object):
         screen_path = os.path.join(path, nowTime + '.png')
         print(screen_path)
         self.driver.save_screenshot(screen_path)
+
+    def __getattr__(self, what):
+        try:
+            if what in self.locator_dictionary.keys():
+                try:
+
+                    element = self.find_element(self.locator_dictionary[what])
+                    # element = WebDriverWait(self.browser,self.timeout).until(
+                    #     EC.presence_of_element_located(self.locator_dictionary[what])
+                    #)
+                except(TimeoutException,StaleElementReferenceException):
+                    traceback.print_exc()
+
+                try:
+                    element= self.is_visible(self.locator_dictionary[what])
+                    #WebDriverWait(self.browser,self.timeout).until(
+                    #     EC.visibility_of_element_located(self.locator_dictionary[what])
+                    # )
+                except(TimeoutException,StaleElementReferenceException):
+                    traceback.print_exc()
+                # I could have returned element, however because of lazy loading, I am seeking the element before return
+                return self.find_element(self.locator_dictionary[what])
+        except AttributeError:
+            super(BasePage, self).__getattribute__("method_missing")(what)
+
+    def method_missing(self, what):
+        print("No %s here!" % what)
 
 
 

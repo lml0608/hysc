@@ -1,25 +1,59 @@
-2018-04-08 16:43:16 testlogin.py[line:21] INFO    : ---测试用例开始----
-2018-04-08 16:43:31 basepage.py[line:39] INFO    : open url:http://portaltest.wgmf.com/index.html
-2018-04-08 16:43:42 basepage.py[line:81] INFO    : click element:loginShow
-2018-04-08 16:43:42 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
-2018-04-08 16:43:54 testlogin.py[line:41] INFO    : -----用例测试结束--------
-2018-04-08 16:48:54 testlogin.py[line:21] INFO    : ---测试用例开始----
-2018-04-08 16:49:06 basepage.py[line:39] INFO    : open url:http://portaltest.wgmf.com/index.html
-2018-04-08 16:49:18 basepage.py[line:81] INFO    : click element:loginShow
-2018-04-08 16:49:18 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
-2018-04-08 16:49:29 testlogin.py[line:41] INFO    : -----用例测试结束--------
-2018-04-08 16:50:53 testlogin.py[line:21] INFO    : ---测试用例开始----
-2018-04-08 16:51:04 basepage.py[line:39] INFO    : open url:http://portaltest.wgmf.com/index.html
-2018-04-08 16:51:16 basepage.py[line:81] INFO    : click element:loginShow
-2018-04-08 16:51:16 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
-2018-04-08 16:51:27 testlogin.py[line:41] INFO    : -----用例测试结束--------
-2018-04-08 16:52:26 testlogin.py[line:21] INFO    : ---测试用例开始----
-2018-04-08 16:52:37 basepage.py[line:39] INFO    : open url:http://portaltest.wgmf.com/index.html
-2018-04-08 16:52:48 basepage.py[line:81] INFO    : click element:loginShow
-2018-04-08 16:52:48 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
-2018-04-08 16:52:59 testlogin.py[line:41] INFO    : -----用例测试结束--------
-2018-04-08 16:58:29 testlogin.py[line:21] INFO    : ---测试用例开始----
-2018-04-08 16:58:41 basepage.py[line:39] INFO    : open url:http://portaltest.wgmf.com/index.html
-2018-04-08 16:58:53 basepage.py[line:81] INFO    : click element:loginShow
-2018-04-08 16:58:53 login_page.py[line:65] INFO    : -----------点击登陆商城----------------
-2018-04-08 16:59:04 testlogin.py[line:41] INFO    : -----用例测试结束--------
+2018-04-09 12:28:32 testlogin.py[line:19] INFO    : ---测试用例开始----
+2018-04-09 12:28:35 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-09 12:28:39 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:39 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/url {"url": "http://portaltest.wgmf.com/index.html", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:42 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:42 basepage.py[line:36] INFO    : open url:http://portaltest.wgmf.com/index.html
+2018-04-09 12:28:42 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/window/current/maximize {"windowHandle": "current", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:43 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:43 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:43 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:44 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:44 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:45 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:45 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:46 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:46 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:47 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:47 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:48 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:48 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:49 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:49 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:50 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:50 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:51 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:51 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:52 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/title {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:52 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:53 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "loginShow", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:53 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:53 basepage.py[line:79] INFO    : click element:loginShow
+2018-04-09 12:28:53 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element/0.9118695783280208-1/click {"id": "0.9118695783280208-1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:53 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:53 login_page.py[line:44] INFO    : -----------点击登陆商城----------------
+2018-04-09 12:28:53 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:53 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:54 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:54 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:55 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:55 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:56 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:57 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:58 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:58 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:28:59 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:28:59 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:29:00 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:29:00 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:29:01 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:29:01 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:29:02 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:29:02 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:29:03 remote_connection.py[line:480] DEBUG   : POST http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/element {"using": "id", "value": "staff_id1", "sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:29:03 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:29:04 remote_connection.py[line:480] DEBUG   : GET http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45/screenshot {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:29:04 remote_connection.py[line:567] DEBUG   : Finished Request
+2018-04-09 12:29:04 testlogin.py[line:36] INFO    : -----用例测试结束--------
+2018-04-09 12:29:04 remote_connection.py[line:480] DEBUG   : DELETE http://127.0.0.1:56154/session/86ddc16f718a787f98d7db3d77c8fa45 {"sessionId": "86ddc16f718a787f98d7db3d77c8fa45"}
+2018-04-09 12:29:04 remote_connection.py[line:567] DEBUG   : Finished Request

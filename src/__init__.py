@@ -13,7 +13,7 @@ logging.config.fileConfig(filepath)
 
 logger = logging.getLogger(__name__)
 
-logging.getLogger("selenium").setLevel(logging.WARNING)
+#logging.getLogger("selenium").setLevel(logging.WARNING)
 
 # curtime = time.strftime("%Y%m%d%H%M%S",time.localtime())
 #

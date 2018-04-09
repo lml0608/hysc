@@ -20,10 +20,11 @@ class LoginPage(BasePage):
 
     locator_dictionary = {
         "login_button": (By.ID, 'loginShow'),
-        "staff": (By.ID, 'staff_id1'),
+        "staff": (By.ID, 'staff_id'),
         "passwd": (By.ID, 'password'),
         "sub_button": (By.CLASS_NAME, 'sub'),
-        "manager_button":(By.XPATH,"//div[@class='my_nav']/div/ul/li[4]/a")
+        "manager_button":(By.XPATH,"//div[@class='my_nav']/div/ul/li[4]/a"),
+        "user_name":(By.CLASS_NAME,"person")
     }
 
     #打开浏览器
